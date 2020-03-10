@@ -1,0 +1,12 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 996583543657-l9tca4q0dodg016jnt0dos7q6lkaq4n9.apps.googleusercontent.com
+            client-secret: dOqdQI0L0gcTg5NTAd6iEF_j
+
+logging:
+  level:
+    org.springframework.web.client.RestTemplate: DEBUG
